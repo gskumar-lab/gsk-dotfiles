@@ -1,0 +1,15 @@
+@import "catppuccin-mocha"
+
+@theme "catppuccin-default"
+
+configuration {
+	modi: "window,run,drun,ssh,filebrowser,emoji";
+	}
+
+
+
+
+
+
+
+//@theme "/usr/share/rofi/themes/android_notification.rasi"

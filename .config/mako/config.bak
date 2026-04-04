@@ -1,0 +1,51 @@
+# ===============================
+# Global Settings
+# ===============================
+
+font=JetBrainsMono Nerd Font 14
+markup=1
+format=<b>%s</b>\n%b
+
+anchor=top-right
+layer=overlay
+max-visible=5
+sort=-time
+#group-by=none
+group-by=app-name
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+
+progress-color=#89b4fa
+border-color=#74c7ec
+
+border-size=2
+border-radius=12
+padding=10
+margin=10
+
+icons=1
+icon-path=/usr/share/icons
+
+default-timeout=5000
+ignore-timeout=0
+
+# ===============================
+# Urgency Styling
+# ===============================
+
+[urgency=low]
+background-color=#1e1e2e
+text-color=#a6adc8
+border-color=#6c7086
+
+[urgency=normal]
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+
+[urgency=high]
+background-color=#1e1e2e
+text-color=#f38ba8
+border-color=#f38ba8
+default-timeout=0
