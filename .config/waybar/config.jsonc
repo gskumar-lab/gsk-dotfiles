@@ -1,0 +1,129 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+  "spacing": 5,
+
+  "modules-left": [
+    "custom/powermenu",
+    "ext/workspaces",
+    "dwl/window"
+  ],
+
+  "modules-center": [
+    "custom/clock"
+],
+
+  "modules-right": [
+    "idle_inhibitor",
+    "custom/system",
+    "tray",
+    "network",
+    "bluetooth",
+    "backlight",
+    "pulseaudio",
+    "battery"
+  ],
+
+  "ext/workspaces": {
+    "all-outputs": true,
+    "disable-scroll": false,
+    "ignore-hidden":true,
+    "on-click": "activate",
+    "on-click-right": "deactivate",
+    "format": "{name}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "󰙯",
+      "5": ""
+    }
+  },
+
+  "dwl/window": {
+    "format": "{}",
+    "max-length": 70
+  },
+
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+        "activated": "󰈈",
+        "deactivated": "󰈉"
+     },
+    "tooltip": true
+  },
+
+
+  "custom/system": {
+   "interval": 10,
+   "exec": "~/.config/mango/waybar/system.sh",
+   "on-click": "footclient --title 'Btop++ - System Monitor' -e btop",
+   "tooltip": false
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  Wired",
+    "format-disconnected": "󰖪  Offline",
+    "interval": 5,
+    "on-click": "~/.config/mango/scripts/nmtui-launch.sh"
+  },
+
+    "bluetooth": {
+    "format": " {status}",
+    "format-connected": " {device_alias}",
+    "format-disabled": " Off",
+    "tooltip-format": "{controller_alias}\n{device_enumerate}",
+    "on-click": "~/.config/mango/scripts/bluetui-launch.sh",
+    "on-click-right": ""
+  },
+
+  "backlight": {
+    "format": "󰃠  {percent}%",
+    "on-scroll-up": "brightnessctl set +5%",
+    "on-scroll-down": "brightnessctl set 5%-",
+    "on-click": "brightnessctl set 50%",
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": "󰖁  Muted",
+    "on-click": "pavucontrol",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+    "tooltip": false
+  },
+
+  "battery": {
+    "format": "  {capacity}%",
+    "format-charging": " {capacity}%",
+    "on-click": "~/.config/mango/scripts/auto-cpufreq-stats-launch.sh",
+    "on-click-right": "auto-cpufreq-gtk",
+    "states": {
+      "warning": 30,
+      "critical": 15
+    }
+  },
+
+  "custom/clock": {
+    "interval": 5,
+    "signal": 8,
+    "exec": "if [ -f ~/.config/mango/waybar/clock_state ]; then date '+%a %d %b %H:%M'; else date '+%I:%M %p'; fi",
+    "on-click": "~/.config/mango/waybar/toggle-clock.sh",
+    "on-click-right": "gsimplecal"
+  },
+
+  "tray": {
+  "spacing": 8
+  },
+
+  "custom/powermenu": {
+    "format": "⏻",
+    "on-click": "~/.config/mango/scripts/rofi-power.sh"
+  }
+}
+

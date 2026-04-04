@@ -1,0 +1,148 @@
+
+/* ===============================
+   Catppuccin Mocha - Clean Glass
+   =============================== */
+
+@define-color base        #1e1e2e;
+@define-color mantle      #181825;
+@define-color crust       #11111b;
+@define-color text        #cdd6f4;
+@define-color subtext0    #a6adc8;
+@define-color surface0    #313244;
+@define-color surface1    #45475a;
+
+@define-color blue        #89b4fa;
+@define-color green       #a6e3a1;
+@define-color yellow      #f9e2af;
+@define-color red         #f38ba8;
+@define-color mauve       #cba6f7;
+
+/* ===============================
+   Global
+   =============================== */
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 16px;
+  border: none;
+  min-height: 0;
+}
+
+/* ===============================
+   Bar
+   =============================== */
+
+window#waybar {
+  background: rgba(24, 24, 37, 0.65);
+
+  border-radius: 16px;
+  margin: 2px 8px;
+  padding: 2px 2px;
+
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* ===============================
+   Modules (Glass Pills)
+   =============================== */
+
+#workspaces,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#backlight,
+#bluetooth,
+#custom-powermenu,
+#idle_inhibitor {
+  background: rgba(49, 50, 68, 0.55);
+
+  border-radius: 14px;
+  padding: 2px 8px;
+  margin: 2px 2px;
+
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* Hover (safe GTK effect) */
+#workspaces:hover,
+#clock:hover,
+#battery:hover,
+#pulseaudio:hover,
+#network:hover,
+#tray:hover,
+#backlight:hover {
+  background: rgba(69, 71, 90, 0.75);
+}
+
+/* ===============================
+   Workspaces
+   =============================== */
+
+#workspaces button {
+  padding: 2px 8px;
+  margin: 2px;
+  background: transparent;
+  color: @subtext0;
+  border-radius: 8px;
+}
+
+#workspaces button.active {
+  background: rgba(203, 166, 247, 0.3);
+  color: @mauve;
+  box-shadow: 0 0 6px rgba(203,166,247,0.5);
+}
+
+#workspaces button:hover {
+  color: @text;
+  background: rgba(255,255,255,0.06);
+}
+
+/* ===============================
+   Clock (highlight)
+   =============================== */
+
+#clock {
+  background: rgba(137, 180, 250, 0.25);
+  color: @blue;
+  font-weight: bold;
+
+  box-shadow: 0 0 10px rgba(137,180,250,0.35);
+}
+
+/* ===============================
+   Battery
+   =============================== */
+
+#battery { color: @green; }
+#battery.warning { color: @yellow; }
+#battery.critical { color: @red; }
+
+/* ===============================
+   Audio / Network
+   =============================== */
+
+#pulseaudio { color: @mauve; }
+#pulseaudio.muted { color: @red; }
+
+#network { color: @blue; }
+#network.disconnected { color: @red; }
+
+/* ===============================
+   Power Button
+   =============================== */
+
+#custom-powermenu {
+  background: rgba(243, 139, 168, 0.3);
+  color: @red;
+
+  box-shadow: 0 0 8px rgba(243,139,168,0.5);
+}
+
+#custom-powermenu:hover {
+  background: rgba(203, 166, 247, 0.3);
+  color: @mauve;
+}
+

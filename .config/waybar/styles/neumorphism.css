@@ -1,0 +1,207 @@
+/* ===============================
+   Neumorphism Dark Theme
+   =============================== */
+
+@define-color bg        #1a1b26;
+@define-color surface   #1f2233;
+@define-color light     #2a2d44;
+@define-color dark      #141624;
+@define-color text      #cdd6f4;
+@define-color accent    #7aa2f7;
+@define-color red       #f7768e;
+@define-color green     #9ece6a;
+@define-color yellow    #e0af68;
+@define-color mauve     #bb9af7;
+
+/* Global */
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 15px;
+  border: none;
+  min-height: 0;
+}
+
+/* Waybar container */
+
+window#waybar {
+  background: @bg;
+  color: @text;
+  border-radius: 16px;
+  padding: 2px 8px;
+
+  /* Outer soft shadow */
+  box-shadow:
+    6px 6px 12px @dark,
+    -6px -6px 12px @light;
+}
+
+/* ===============================
+   Workspaces
+   =============================== */
+
+#workspaces button {
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 14px;
+  color: @text;
+  background: @surface;
+
+  box-shadow:
+    4px 4px 8px @dark,
+    -4px -4px 8px @light;
+}
+
+/* Active (pressed effect) */
+#workspaces button.active {
+  color: @accent;
+  background: @surface;
+
+  box-shadow:
+    inset 4px 4px 8px @dark,
+    inset -4px -4px 8px @light;
+}
+
+/* Hover */
+#workspaces button:hover {
+  color: @accent;
+}
+
+/* Urgent */
+#workspaces button.urgent {
+  color: @red;
+}
+
+/* ===============================
+   Window Title
+   =============================== */
+
+#window {
+  background: transparent;
+  font-weight: 500;
+  color: @text;
+}
+
+/* ===============================
+   Modules (Neumorphic Blocks)
+   =============================== */
+
+#tray,
+#network,
+#backlight,
+#pulseaudio,
+#battery,
+#clock,
+#custom-powermenu,
+#idle_inhibitor,
+#bluetooth {
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 14px;
+  background: @surface;
+  color: @text;
+
+  box-shadow:
+    4px 4px 8px @dark,
+    -4px -4px 8px @light;
+}
+
+/* ===============================
+   Pressed / Active States
+   =============================== */
+
+#custom-powermenu:active,
+#idle_inhibitor.activated {
+  box-shadow:
+    inset 4px 4px 8px @dark,
+    inset -4px -4px 8px @light;
+}
+
+/* ===============================
+   Power Button
+   =============================== */
+
+#custom-powermenu {
+  color: @red;
+}
+
+#custom-powermenu:hover {
+  color: @mauve;
+}
+
+/* ===============================
+   Network / Bluetooth
+   =============================== */
+
+#network {
+  color: @accent;
+}
+
+#network.disconnected {
+  color: @red;
+}
+
+#bluetooth {
+  color: @accent;
+}
+
+#bluetooth.disabled {
+  color: @red;
+}
+
+/* ===============================
+   Audio
+   =============================== */
+
+#pulseaudio {
+  color: @mauve;
+}
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+/* ===============================
+   Battery
+   =============================== */
+
+#battery {
+  color: @green;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+
+#battery.critical {
+  color: @red;
+}
+
+/* ===============================
+   Backlight
+   =============================== */
+
+#backlight {
+  color: @yellow;
+}
+
+/* ===============================
+   Clock (highlighted soft glow)
+   =============================== */
+
+#clock {
+  color: @accent;
+  font-weight: bold;
+
+  box-shadow:
+    inset 3px 3px 6px @dark,
+    inset -3px -3px 6px @light;
+}
+
+/* ===============================
+   Idle inhibitor
+   =============================== */
+
+#idle_inhibitor {
+  padding: 0 12px;
+}

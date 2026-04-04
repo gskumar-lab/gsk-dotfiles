@@ -1,0 +1,172 @@
+/* ===============================
+   Tokyo Night Storm
+   =============================== */
+
+@define-color base        #24283b;
+@define-color mantle      #1f2335;
+@define-color crust       #1a1b26;
+
+@define-color text        #c0caf5;
+@define-color subtext0    #a9b1d6;
+
+@define-color surface0    #2a2f45;
+@define-color surface1    #353b55;
+
+@define-color blue        #7aa2f7;
+@define-color cyan        #7dcfff;
+@define-color green       #9ece6a;
+@define-color yellow      #e0af68;
+@define-color red         #f7768e;
+@define-color magenta     #bb9af7;
+
+/* Global */
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 15px;
+  border: none;
+  min-height: 0;
+}
+
+/* Bar */
+
+window#waybar {
+  background: @mantle;
+  color: @text;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+
+/* Workspace */
+
+#workspaces button {
+  padding: 2px 16px;
+  margin: 6px 6px;
+  background: @surface0;
+  border-radius: 20px;
+  color: @subtext0;
+}
+
+#workspaces button.active {
+  background: @magenta;
+  color: @base;
+}
+
+#workspaces button:hover {
+  background: @surface1;
+  color: @text;
+}
+
+#workspaces button.visible {
+  border: 2px solid @blue;
+}
+
+#workspaces button.urgent {
+  background: @red;
+  color: @base;
+}
+
+/* Window Title */
+
+#window {
+  background: transparent;
+  color: @text;
+  font-weight: 500;
+}
+
+/* Generic module style */
+
+#tray,
+#network,
+#backlight,
+#pulseaudio,
+#battery,
+#clock,
+#custom-powermenu {
+  padding: 4px 10px;
+  margin: 2px 4px;
+  color: @text;
+}
+
+/* Power */
+
+#custom-powermenu {
+  background: @red;
+  color: @base;
+  border-radius: 20px;
+}
+
+#custom-powermenu:hover {
+  background: @magenta;
+}
+
+#idle_inhibitor {
+  padding: 0 12px;
+}
+
+#idle_inhibitor.activated {
+  background: @surface0;
+  color: @red;
+  border-radius: 20px;
+}
+
+/* Network */
+
+#network {
+  color: @blue;
+}
+
+#network.disconnected {
+  color: @red;
+}
+
+#bluetooth {
+  padding: 0 8px;
+  color: @cyan;
+}
+
+#bluetooth.disabled {
+  color: @red;
+}
+
+/* Volume */
+
+#pulseaudio {
+  color: @magenta;
+}
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+/* Battery */
+
+#battery {
+  color: @green;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+
+#battery.critical {
+  color: @red;
+}
+
+/* Clock */
+
+#clock {
+  background: @blue;
+  color: @base;
+  font-weight: bold;
+}
+
+/* Extras */
+
+#custom-system {
+  color: @green;
+}
+
+#backlight {
+  color: @yellow;
+}

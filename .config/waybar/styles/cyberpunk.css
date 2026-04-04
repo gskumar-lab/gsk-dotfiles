@@ -1,0 +1,202 @@
+/* ===============================
+   Cyberpunk Neon Theme
+   =============================== */
+
+@define-color base        #0a0a0f;
+@define-color mantle      #0f0f17;
+@define-color crust       #050507;
+
+@define-color text        #e0e0ff;
+@define-color subtext0    #9aa0ff;
+
+@define-color surface0    #141427;
+@define-color surface1    #1f1f3a;
+
+/* Neon accents */
+@define-color cyan        #00f5ff;
+@define-color pink        #ff00c8;
+@define-color purple      #9d00ff;
+@define-color green       #00ff9f;
+@define-color yellow      #ffe600;
+@define-color red         #ff3b3b;
+
+
+/* Global */
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 15px;
+  border: none;
+  min-height: 0;
+}
+
+/* Bar */
+
+window#waybar {
+  background: @mantle;
+  color: @text;
+  border-radius: 16px;
+  padding: 2px 8px;
+  border: 1px solid @purple;
+}
+
+/* Workspaces */
+
+#workspaces button {
+  padding: 2px 16px;
+  margin: 4px 4px;
+  background: @surface0;
+  border-radius: 20px;
+  color: @subtext0;
+  box-shadow: 0 0 6px transparent;
+}
+
+#workspaces button.active {
+  background: @purple;
+  color: @base;
+  box-shadow: 0 0 10px @purple;
+}
+
+#workspaces button:hover {
+  background: @surface1;
+  color: @cyan;
+  box-shadow: 0 0 8px @cyan;
+}
+
+#workspaces button.visible {
+  border: 1px solid @cyan;
+  box-shadow: 0 0 8px @cyan;
+}
+
+#workspaces button.urgent {
+  background: @red;
+  color: @base;
+  box-shadow: 0 0 10px @red;
+}
+
+
+/* Window Title */
+
+#window {
+  background: transparent;
+  color: @cyan;
+  font-weight: 600;
+}
+
+
+/* Modules */
+
+#tray,
+#network,
+#backlight,
+#pulseaudio,
+#battery,
+#clock,
+#custom-powermenu {
+  padding: 2px 12px;
+  margin: 4px 4px;
+  color: @text;
+  border-radius: 16px;
+  background: @surface0;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+/* Power */
+
+#custom-powermenu {
+  background: @pink;
+  color: @base;
+  box-shadow: 0 0 12px @pink;
+}
+
+#custom-powermenu:hover {
+  background: @purple;
+  box-shadow: 0 0 14px @purple;
+}
+
+
+/* Idle */
+
+#idle_inhibitor {
+  padding: 0 12px;
+}
+
+#idle_inhibitor.activated {
+  background: @surface1;
+  color: @pink;
+  margin: 4px 4px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px @pink;
+}
+
+
+/* Network */
+
+#network {
+  color: @cyan;
+}
+
+#network.disconnected {
+  color: @red;
+  box-shadow: 0 0 8px @red;
+}
+
+/* Bluetooth */
+
+#bluetooth {
+  padding: 0 8px;
+  color: @purple;
+}
+
+#bluetooth.disabled {
+  color: @red;
+}
+
+
+/* Volume */
+
+#pulseaudio {
+  color: @purple;
+}
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+
+/* Battery */
+
+#battery {
+  color: @green;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+
+#battery.critical {
+  color: @red;
+  box-shadow: 0 0 10px @red;
+}
+
+
+/* Clock */
+
+#clock {
+  background: @cyan;
+  color: @base;
+  font-weight: bold;
+  box-shadow: 0 0 12px @cyan;
+}
+
+
+/* Extras */
+
+#custom-system {
+  color: @green;
+}
+
+#backlight {
+  color: @yellow;
+}

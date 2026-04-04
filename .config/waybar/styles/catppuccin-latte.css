@@ -1,0 +1,166 @@
+/* ===============================
+   Catppuccin Latte (Light)
+   =============================== */
+
+@define-color base        #eff1f5;
+@define-color mantle      #e6e9ef;
+@define-color crust       #dce0e8;
+@define-color text #3a3d5c;
+@define-color subtext0 #5c5f77;
+@define-color surface0    #ccd0da;
+@define-color surface1    #bcc0cc;
+@define-color blue        #1e66f5;
+@define-color green       #40a02b;
+@define-color yellow      #df8e1d;
+@define-color red         #d20f39;
+@define-color mauve       #8839ef;
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #dde1e6; /* darker than @mantle */
+  color: @text;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+
+/* Workspace */
+
+#workspaces button {
+  padding: 2px 16px;
+  margin: 6px 6px;
+  background: @surface0;
+  border-radius: 20px;
+  color: @subtext0;
+}
+
+#workspaces button.active {
+  background: @mauve;
+  color: @base;
+}
+
+#workspaces button:hover {
+  background: @blue;
+  color: @base;
+}
+
+#workspaces button.visible {
+  border: 2px solid @blue;
+}
+
+#workspaces button.urgent {
+  background: @red;
+  color: @base;
+}
+
+
+/* Window Title */
+
+#window {
+  background: transparent;
+  color: @text;
+  font-weight: 500;
+}
+
+/* Generic module style */
+
+#tray,
+#network,
+#backlight,
+#pulseaudio,
+#battery,
+#clock,
+#custom-powermenu {
+  padding: 4px 10px;
+  margin: 2px 4px;
+  color: @text;
+}
+
+
+/* Power */
+
+#custom-powermenu {
+  background: @red;
+  color: @base;
+  border-radius: 20px;
+}
+
+#custom-powermenu:hover {
+  background: @mauve;
+}
+
+#idle_inhibitor {
+  padding: 0 12px;
+}
+
+#idle_inhibitor.activated {
+  background: @surface0;
+  color: @red;
+  border-radius: 20px;
+}
+
+
+/* Network */
+
+#network.disconnected {
+  color: @red;
+}
+
+#bluetooth {
+  padding: 0 8px;
+  color: @blue;
+}
+
+#bluetooth.disabled {
+  color: @red;
+}
+
+/* Volume */
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+/* Battery */
+
+#battery {
+  color: @green;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+
+#battery.critical {
+  color: @red;
+}
+
+/* Clock */
+
+#clock {
+  background: @blue;
+  color: @base;
+  font-weight: bold;
+}
+
+#custom-system {
+  color: @green;
+}
+
+#network {
+  color: @blue;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#pulseaudio {
+  color: @mauve;
+}
