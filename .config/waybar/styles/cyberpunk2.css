@@ -1,0 +1,252 @@
+
+/* =====================================================
+   Waybar — Cyberpunk Neon (Dark Glass)
+   ===================================================== */
+
+/* Neon Palette */
+@define-color bg          #0a0a0f;
+@define-color surface     #11111b;
+@define-color text        #e0e6ff;
+@define-color cyan        #00f7ff;
+@define-color pink        #ff2bd6;
+@define-color purple      #9d4edd;
+@define-color blue        #3a86ff;
+@define-color green       #00ff9c;
+@define-color yellow      #ffe600;
+@define-color red         #ff006e;
+
+/* =====================================================
+   Global
+   ===================================================== */
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", monospace;
+  font-size: 15px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 14px;
+
+  color: @text;
+}
+
+/* =====================================================
+   Bar Container (Dark Glass)
+   ===================================================== */
+
+window#waybar {
+  background: rgba(10, 10, 15, 0.75);  /* dark translucent */
+  padding: 3px 4px;
+  margin: 8px 12px;
+
+  border-radius: 18px;
+  border: 1px solid rgba(0, 247, 255, 0.15);
+
+  box-shadow:
+    0 0 20px rgba(0, 247, 255, 0.15),
+    0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+/* =====================================================
+   Workspaces (Neon Pills)
+   ===================================================== */
+
+#workspaces button {
+  margin: 4px 12px;
+  padding: 1px 16px;
+
+  background: rgba(17, 17, 27, 0.6);
+  color: @purple;
+  
+  border-radius: 18px;
+
+  text-shadow:
+    0 0 6px @purple,
+    0 0 12px rgba(157,78,221,0.6);
+}
+
+#workspaces button:hover {
+  color: @cyan;
+  text-shadow:
+    0 0 8px @cyan,
+    0 0 18px rgba(0,247,255,0.9);
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+  background: rgba(255, 43, 214, 0.15);
+  color: @pink;
+
+  text-shadow:
+    0 0 10px @pink,
+    0 0 25px rgba(255,43,214,1),
+    0 0 40px rgba(255,43,214,0.6);
+}
+
+#workspaces button.urgent {
+  background: rgba(255, 0, 110, 0.2);
+  color: @red;
+}
+
+/* =====================================================
+   Window Title
+   ===================================================== */
+
+#window {
+  color: @text;
+  font-weight: 500;
+}
+
+/* =====================================================
+   Modules (Glass Blocks)
+   ===================================================== */
+
+#tray,
+#network,
+#backlight,
+#pulseaudio,
+#battery,
+#clock,
+#custom-updates,
+#custom-powermenu,
+#bluetooth,
+#custom-system,
+#idle_inhibitor {
+  margin: 2px 8px;
+  padding: 2px 6px;
+
+  background: rgba(17, 17, 27, 0.55);
+  border-radius: 12px;
+
+}
+
+/* =====================================================
+   Clock (Core Glow)
+   ===================================================== */
+
+#clock {
+  font-size: 16px;
+  font-weight: 700;
+  color: @cyan;
+
+  text-shadow:
+    0 0 10px @cyan,
+    0 0 25px rgba(0,247,255,1),
+    0 0 45px rgba(0,247,255,0.7);
+}
+
+/* =====================================================
+   Battery
+   ===================================================== */
+
+#battery {
+  color: @green;
+  text-shadow: 0 0 10px @green;
+}
+
+#battery.warning {
+  color: @yellow;
+}
+
+#battery.critical {
+  color: @red;
+  text-shadow:
+    0 0 12px @red,
+    0 0 25px rgba(255,0,110,1);
+}
+
+/* =====================================================
+   Network
+   ===================================================== */
+
+#network {
+  color: @blue;
+  text-shadow: 0 0 10px @blue;
+}
+
+#network.disconnected {
+  color: @red;
+}
+
+/* =====================================================
+   Bluetooth
+   ===================================================== */
+
+#bluetooth {
+  color: @cyan;
+  text-shadow: 0 0 10px @cyan;
+}
+
+#bluetooth.disabled {
+  color: @red;
+}
+
+/* =====================================================
+   Volume
+   ===================================================== */
+
+#pulseaudio {
+  color: @pink;
+  text-shadow: 0 0 10px @pink;
+}
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+/* =====================================================
+   Backlight
+   ===================================================== */
+
+#backlight {
+  color: @yellow;
+  text-shadow: 0 0 8px @yellow;
+}
+
+/* =====================================================
+   Updates
+   ===================================================== */
+
+#custom-updates {
+  color: @yellow;
+  font-weight: 700;
+
+  text-shadow:
+    0 0 12px @yellow,
+    0 0 25px rgba(255,230,0,1);
+}
+
+/* =====================================================
+   Power Menu
+   ===================================================== */
+
+#custom-powermenu {
+  color: @red;
+  font-weight: 700;
+
+  text-shadow:
+    0 0 12px @red,
+    0 0 25px rgba(255,0,110,1);
+}
+
+#custom-powermenu:hover {
+  color: @pink;
+}
+
+/* =====================================================
+   System
+   ===================================================== */
+
+#custom-system {
+  color: @green;
+  text-shadow: 0 0 10px @green;
+}
+
+/* =====================================================
+   Idle Inhibitor
+   ===================================================== */
+
+#idle_inhibitor.activated {
+  color: @red;
+  text-shadow: 0 0 12px @red;
+}
