@@ -1,0 +1,36 @@
+
+#install cachyos repos
+curl https://mirror.cachyos.org/cachyos-repo.tar.xz -o cachyos-repo.tar.xz
+tar xvf cachyos-repo.tar.xz && cd cachyos-repo
+sudo ./cachyos-repo.sh
+
+#install chaotic-aur repo
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+sudo echo "[chaotic-aur]" >> /etc/pacman.conf
+sudo echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
+sudo pacman -Sy
+
+#setup important deps
+sudo pacman -S paru base base-devel --needed --no-confirm
+
+
+#installing dependencies
+sudo paru -S auto-cpufreq bluetui brave-bin brightnessctl btop cliphist dialog feh foot fzf \
+mangowm mako notify-send pcmanfm rofi rofi-emoji superproductivity-bin swayidle swaybg \
+swaylock sway-audio-idle-inhibit ttf-jetbrains-mono-nerd waybar wev wl-clipboard \
+wl-clip-persist zen-browser-bin
+
+#setting up yazi with deps
+sudo paru -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick --needed --no-confirm
+
+#for screenshots
+mkdir -p $HOME/Pictures
+sudo paru -S grim slurp --needed --no-confirm
+
+#cachyos kernels + gaming meta
+sudo paru -S linux-cachyos linux-cachyos-headers cachyos-gaming-meta \
+linux-cachyos-lts linux-cachyos-lts-headers --needed --no-confirm
+
