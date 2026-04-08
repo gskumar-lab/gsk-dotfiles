@@ -11,13 +11,14 @@ sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.ta
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 sudo echo "[chaotic-aur]" >> /etc/pacman.conf
 sudo echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
-sudo pacman -Sy
+
+#update system
+sudo pacman -Syu --no-confirm
 
 #setup important deps
-sudo pacman -S paru base base-devel --needed --no-confirm
+sudo pacman -S paru base base-devel git curl wget  --needed --no-confirm
 
-
-#installing dependencies
+#installing apps and dependencies
 sudo paru -S auto-cpufreq bluetui brave-bin brightnessctl btop cliphist dialog feh foot fzf \
 mangowm mako notify-send pcmanfm rofi rofi-emoji superproductivity-bin swayidle swaybg \
 swaylock sway-audio-idle-inhibit ttf-jetbrains-mono-nerd waybar wev wl-clipboard \

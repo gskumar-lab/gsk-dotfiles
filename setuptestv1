@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+set -e
+
+echo "==> Installing CachyOS repo"
+
+(
+  cd /tmp
+  curl -LO https://mirror.cachyos.org/cachyos-repo.tar.xz
+  tar xf cachyos-repo.tar.xz
+  cd cachyos-repo
+  sudo ./cachyos-repo.sh
+)
+
+echo "==> Installing Chaotic-AUR repo"
+
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+
+sudo pacman -U --noconfirm \
+  https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst \
+  https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst
+
+# Add repo safely (no duplicate)
+if ! grep -q "\[chaotic-aur\]" /etc/pacman.conf; then
+  echo "==> Adding Chaotic-AUR repo to pacman.conf"
+  echo -e "\n[chaotic-aur]\nInclude = /etc/pacman.d/chaotic-mirrorlist" | \
+    sudo tee -a /etc/pacman.conf > /dev/null
+fi
+
+echo "==> Updating system"
+sudo pacman -Syu --noconfirm
+
+echo "==> Installing base dependencies"
+sudo pacman -S --noconfirm --needed \
+  base base-devel git curl wget
+
+echo "==> Installing paru (AUR helper)"
+
+if ! command -v paru >/dev/null; then
+  (
+    cd /tmp
+    git clone https://aur.archlinux.org/paru.git
+    cd paru
+    makepkg -si --noconfirm
+  )
+fi
+
+echo "==> Installing applications"
+
+paru -S --noconfirm --needed \
+  auto-cpufreq bluetui brave-bin brightnessctl btop cliphist dialog feh foot fzf \
+  mangowm mako libnotify pcmanfm rofi rofi-emoji superproductivity-bin swayidle swaybg \
+  swaylock sway-audio-idle-inhibit ttf-jetbrains-mono-nerd waybar wev wl-clipboard \
+  wl-clip-persist zen-browser-bin
+
+echo "==> Installing yazi + dependencies"
+
+paru -S --noconfirm --needed \
+  yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+
+echo "==> Screenshot tools"
+mkdir -p "$HOME/Pictures"
+paru -S --noconfirm --needed grim slurp
+
+echo "==> Copying configs"
+
+cp -r .configs "$HOME/"
+
+echo "==> Done!"
