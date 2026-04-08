@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-THEME_DIR="$HOME/.config/mango/waybar/styles"
-CURRENT_LINK="$HOME/.config/mango/waybar/style.css"
+THEME_DIR="~/.config/mango/waybar/styles"
+CURRENT_LINK="~/.config/mango/waybar/style.css"
 
 # Get list of themes
 themes=($(ls "$THEME_DIR"))
@@ -35,5 +35,5 @@ echo "Switched to theme: $next_theme"
 
 # Reload Waybar
 pkill waybar
-waybar -c ~/.config/mango/waybar/config.jsonc -s ~/.config/mango/waybar/style.css &
+waybar -c ~/.config/waybar/config.jsonc -s ~/.config/waybar/style.css &
 
