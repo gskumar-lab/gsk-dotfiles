@@ -1,0 +1,27 @@
+2026/06/22-09:05:51.285 9b8 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/06/22-09:05:51.286 9b8 Recovering log #414
+2026/06/22-09:05:51.288 9b8 Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/Sync Data/LevelDB/000414.log 
+2026/06/22-09:13:05.468 9ca Level-0 table #418: started
+2026/06/22-09:13:05.479 9ca Level-0 table #418: 68082 bytes OK
+2026/06/22-09:13:05.487 9ca Delete type=0 #414
+2026/06/22-10:11:48.817 9cb Level-0 table #420: started
+2026/06/22-10:11:48.828 9cb Level-0 table #420: 53811 bytes OK
+2026/06/22-10:11:48.833 9cb Delete type=0 #417
+2026/06/22-10:55:54.583 9cb Level-0 table #422: started
+2026/06/22-10:55:54.590 9cb Level-0 table #422: 58263 bytes OK
+2026/06/22-10:55:54.596 9cb Delete type=0 #419
+2026/06/22-10:55:54.596 9cb Compacting 4@0 + 1@1 files
+2026/06/22-10:55:54.604 9cb Generated table #423@0: 211 keys, 16272 bytes
+2026/06/22-10:55:54.605 9cb Compacted 4@0 + 1@1 files => 16272 bytes
+2026/06/22-10:55:54.610 9cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/22-10:55:54.610 9cb Delete type=2 #413
+2026/06/22-10:55:54.610 9cb Delete type=2 #415
+2026/06/22-10:55:54.610 9cb Delete type=2 #418
+2026/06/22-10:55:54.610 9cb Delete type=2 #420
+2026/06/22-10:55:54.611 9cb Delete type=2 #422
+2026/06/22-11:42:20.926 9cb Level-0 table #425: started
+2026/06/22-11:42:20.936 9cb Level-0 table #425: 56350 bytes OK
+2026/06/22-11:42:20.941 9cb Delete type=0 #421
+2026/06/22-12:23:50.382 9ca Level-0 table #427: started
+2026/06/22-12:23:50.385 9ca Level-0 table #427: 58490 bytes OK
+2026/06/22-12:23:50.388 9ca Delete type=0 #424

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Bulk URL Opener - Tab Manager",
+    "description": "Extension name for Chrome Web Store (max 45 chars)"
+  },
+  "shortDesc": {
+    "message": "Fungolá ba URL mpe ba liens ebele na mbala moko. Gestionnaire ya ba onglets, bómba mpe bófungola ba liens nyonso na navigateur.",
+    "description": "Extension description for Chrome Web Store (max 132 chars)"
+  }
+}

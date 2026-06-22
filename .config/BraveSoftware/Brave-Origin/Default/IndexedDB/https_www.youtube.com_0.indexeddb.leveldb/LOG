@@ -1,0 +1,30 @@
+2026/06/22-09:05:54.393 9b8 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/22-09:05:54.394 9b8 Recovering log #776
+2026/06/22-09:05:54.396 9b8 Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000776.log 
+2026/06/22-09:27:57.995 9b8 Level-0 table #781: started
+2026/06/22-09:27:58.018 9b8 Level-0 table #781: 1939219 bytes OK
+2026/06/22-09:27:58.021 9b8 Delete type=0 #776
+2026/06/22-10:50:02.212 9b8 Compacting 1@1 + 1@2 files
+2026/06/22-10:50:02.237 9b8 Generated table #782@1: 4785 keys, 316658 bytes
+2026/06/22-10:50:02.237 9b8 Compacted 1@1 + 1@2 files => 316658 bytes
+2026/06/22-10:50:02.241 9b8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/22-10:50:02.242 9b8 Delete type=2 #778
+2026/06/22-10:50:02.242 9b8 Delete type=2 #781
+2026/06/22-11:22:33.922 9b8 Level-0 table #784: started
+2026/06/22-11:22:33.939 9b8 Level-0 table #784: 1479510 bytes OK
+2026/06/22-11:22:33.942 9b8 Delete type=0 #780
+2026/06/22-11:24:32.687 9ca Compacting 1@1 + 1@2 files
+2026/06/22-11:24:32.704 9ca Generated table #785@1: 4834 keys, 415706 bytes
+2026/06/22-11:24:32.704 9ca Compacted 1@1 + 1@2 files => 415706 bytes
+2026/06/22-11:24:32.707 9ca compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/22-11:24:32.707 9ca Delete type=2 #782
+2026/06/22-11:24:32.707 9ca Delete type=2 #784
+2026/06/22-11:33:24.067 9b8 Level-0 table #787: started
+2026/06/22-11:33:24.085 9b8 Level-0 table #787: 1866938 bytes OK
+2026/06/22-11:33:24.089 9b8 Delete type=0 #783
+2026/06/22-11:44:12.318 9b6 Compacting 1@1 + 1@2 files
+2026/06/22-11:44:12.334 9b6 Generated table #788@1: 4836 keys, 341574 bytes
+2026/06/22-11:44:12.334 9b6 Compacted 1@1 + 1@2 files => 341574 bytes
+2026/06/22-11:44:12.337 9b6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/22-11:44:12.337 9b6 Delete type=2 #785
+2026/06/22-11:44:12.337 9b6 Delete type=2 #787

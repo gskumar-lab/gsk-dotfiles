@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": "img/logo-96.png",
+      "default_popup": "popup.html#/?popup=true"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "default_locale": "en",
+   "description": "__MSG_shortDesc__",
+   "icons": {
+      "128": "img/logo-128.png",
+      "16": "img/logo-16.png",
+      "196": "img/logo-196.png",
+      "48": "img/logo-48.png",
+      "96": "img/logo-96.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7NMnpdTG99TlNV+zoclkXwF1yantRp9UW7pIdPLB8N11Kkim6JF+NNagz3bYJ5k9Gr4coiCtugK3PvLzjONzbItxT7WrhuPyTO72oGD1133X9zW/gRlKbTEUarJVX79tHa7kxqDNYK0q6dDRwy3seCypQrv+8JCxZNcCay3eXqD8VGfBZ1rBvmF3GL+JG6m4tN1WbF4lK2YDLTuInKoLqowNBGfTooQFDDOpp8GGfh2BtVKS0jZSYAGFtk4gKzc0rOypKgq00FSuLnJ+VzV4y8g7KCIOWgZCO19UVPq+LUj1qWnRIAeuVQeq1Noa97yixY3l+rrzndeQTCwiGjwSYwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "tabs", "activeTab", "sidePanel" ],
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "*" ],
+      "use_dynamic_url": false
+   } ]
+}

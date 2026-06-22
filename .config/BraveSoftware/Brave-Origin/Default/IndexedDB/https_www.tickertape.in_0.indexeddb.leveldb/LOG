@@ -1,0 +1,13 @@
+2026/06/13-11:16:50.521 79b1 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.tickertape.in_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/13-11:16:50.521 79b1 Recovering log #7
+2026/06/13-11:16:50.521 79b1 Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.tickertape.in_0.indexeddb.leveldb/000007.log 
+2026/06/13-11:16:50.648 79c3 Level-0 table #11: started
+2026/06/13-11:16:50.650 79c3 Level-0 table #11: 3021 bytes OK
+2026/06/13-11:16:50.653 79c3 Delete type=0 #7
+2026/06/13-11:16:50.653 79af Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 679 : 1
+2026/06/13-11:16:50.653 79af Compacting 1@0 + 1@1 files
+2026/06/13-11:16:50.655 79af Generated table #12@0: 244 keys, 4618 bytes
+2026/06/13-11:16:50.655 79af Compacted 1@0 + 1@1 files => 4618 bytes
+2026/06/13-11:16:50.657 79af compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/13-11:16:50.658 79af Delete type=2 #11
+2026/06/13-11:16:50.658 79af Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 679 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,63 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "image/producticon_48px_active.png",
+         "32": "image/producticon_48px_active.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_inputtool_title__"
+   },
+   "background": {
+      "service_worker": "chext_backgroundpage.js"
+   },
+   "commands": {
+      "next": {
+         "description": "__MSG_select_next_input_tool__",
+         "suggested_key": {
+            "default": "Alt+Shift+N"
+         }
+      },
+      "revert": {
+         "description": "__MSG_revert_last_input_tool__",
+         "suggested_key": {
+            "default": "Alt+Shift+R"
+         }
+      },
+      "toggle": {
+         "description": "__MSG_toggle_input_tool__",
+         "suggested_key": {
+            "default": "Alt+Shift+T"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chext_loader.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "js": [ "chext_driver.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_inputtool_description__",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "image/producticon_48px_active.png",
+      "16": "image/producticon_48px_active.png",
+      "32": "image/producticon_48px_active.png",
+      "48": "image/producticon_48px_active.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyVJtDU94PQL2SoZD4PChh0duiZBRE98pMeJL3LPpM68nN6fw+NBfXA6wlhqRHGB/6Bgx1nIXG0Hjyvwv8hj/S1atFpdNhzmvR3GRhvEjGng+L8A67OP1HuzwiXpEdYBSaI0R6qOgxEWgH72oKQyNdDOxXRDGCR99CtiJe5MpO0QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_inputtool_title__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "offscreen", "tabs", "storage", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "11.4.0.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "keyboard.html", "*.js", "*.css", "*.png", "*.gif" ]
+   } ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Brave Ad Block Updater extension",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi+3kFflz/T/23jCZhh9hh4uFlHzAM8nFm+F5oP4MB6P6gboajLIP6X4xsgODxk4vbe6bPm59cgnT9gjKGgSbJM0sG9uYXMFTCCDvALu0ftekOHVUJm5WIwxzBbXfHWzbJm7HPtkiezFPfKvric7aI4oZdO6QSAwP8K57zxvK6UFZ0BFBCjCE+ryyOEMM/eEWpNnvtxw5gXWp/Ur7QPCrN/vYvFf2l6NlsYyc5ExFXToeSp6FByfSEvyhTuRwbM5RkCF2lPbkX5js1Hy46aqhJ+8FsfKpfEh3fNq34W55hHx3hHhAp/W3TvSJ+ZdMRQocatKpGwMSc1nl0WCcm8EpXQIDAQAB",
+  "manifest_version": 2,
+  "name": "Brave Ad Block Updater (YouTube members-only video blocker (plaintext))",
+  "version": "1.0.3"
+}

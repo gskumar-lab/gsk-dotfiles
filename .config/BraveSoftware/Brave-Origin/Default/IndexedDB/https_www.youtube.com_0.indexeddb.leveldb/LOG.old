@@ -1,0 +1,63 @@
+2026/06/21-19:52:14.926 93c Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/21-19:52:14.926 93c Recovering log #757
+2026/06/21-19:52:14.927 93c Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000757.log 
+2026/06/21-19:52:14.991 93e Compacting 1@1 + 1@2 files
+2026/06/21-19:52:15.009 93e Generated table #760@1: 4634 keys, 328327 bytes
+2026/06/21-19:52:15.009 93e Compacted 1@1 + 1@2 files => 328327 bytes
+2026/06/21-19:52:15.012 93e compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-19:56:22.759 93e Level-0 table #762: started
+2026/06/21-19:56:22.777 93e Level-0 table #762: 2540084 bytes OK
+2026/06/21-19:56:22.781 93e Delete type=2 #756
+2026/06/21-19:56:22.781 93e Delete type=0 #757
+2026/06/21-19:56:22.781 93e Delete type=2 #758
+2026/06/21-19:58:33.970 950 Compacting 1@1 + 1@2 files
+2026/06/21-19:58:33.999 950 Generated table #763@1: 4653 keys, 337428 bytes
+2026/06/21-19:58:33.999 950 Compacted 1@1 + 1@2 files => 337428 bytes
+2026/06/21-19:58:34.002 950 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-20:07:13.801 93e Level-0 table #765: started
+2026/06/21-20:07:13.815 93e Level-0 table #765: 1358708 bytes OK
+2026/06/21-20:07:13.819 93e Delete type=2 #760
+2026/06/21-20:07:13.819 93e Delete type=0 #761
+2026/06/21-20:07:13.819 93e Delete type=2 #762
+2026/06/21-20:08:20.829 93c Compacting 1@1 + 1@2 files
+2026/06/21-20:08:20.849 93c Generated table #766@1: 4680 keys, 335303 bytes
+2026/06/21-20:08:20.849 93c Compacted 1@1 + 1@2 files => 335303 bytes
+2026/06/21-20:08:20.852 93c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-20:08:20.852 93c Delete type=2 #763
+2026/06/21-20:08:20.852 93c Delete type=2 #765
+2026/06/21-20:13:17.191 93e Level-0 table #768: started
+2026/06/21-20:13:17.211 93e Level-0 table #768: 1537739 bytes OK
+2026/06/21-20:13:17.216 93e Delete type=0 #764
+2026/06/21-20:13:49.783 93c Compacting 1@1 + 1@2 files
+2026/06/21-20:13:49.803 93c Generated table #769@1: 4689 keys, 311659 bytes
+2026/06/21-20:13:49.803 93c Compacted 1@1 + 1@2 files => 311659 bytes
+2026/06/21-20:13:49.806 93c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-20:13:49.806 93c Delete type=2 #766
+2026/06/21-20:13:49.806 93c Delete type=2 #768
+2026/06/21-20:23:10.373 93e Level-0 table #771: started
+2026/06/21-20:23:10.379 93e Level-0 table #771: 1264984 bytes OK
+2026/06/21-20:23:10.382 93e Delete type=0 #767
+2026/06/21-20:23:38.522 93e Compacting 1@1 + 1@2 files
+2026/06/21-20:23:38.536 93e Generated table #772@1: 4712 keys, 328428 bytes
+2026/06/21-20:23:38.536 93e Compacted 1@1 + 1@2 files => 328428 bytes
+2026/06/21-20:23:38.539 93e compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-20:23:38.539 93e Delete type=2 #769
+2026/06/21-20:23:38.539 93e Delete type=2 #771
+2026/06/21-20:59:08.447 93e Level-0 table #774: started
+2026/06/21-20:59:08.462 93e Level-0 table #774: 1452448 bytes OK
+2026/06/21-20:59:08.465 93e Delete type=0 #770
+2026/06/21-21:00:08.448 93e Compacting 1@1 + 1@2 files
+2026/06/21-21:00:08.466 93e Generated table #775@1: 4733 keys, 312799 bytes
+2026/06/21-21:00:08.466 93e Compacted 1@1 + 1@2 files => 312799 bytes
+2026/06/21-21:00:08.469 93e compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-21:00:08.469 93e Delete type=2 #772
+2026/06/21-21:00:08.469 93e Delete type=2 #774
+2026/06/21-21:32:41.089 93e Level-0 table #777: started
+2026/06/21-21:32:41.107 93e Level-0 table #777: 1278575 bytes OK
+2026/06/21-21:32:41.110 93e Delete type=0 #773
+2026/06/21-21:45:41.157 93e Compacting 1@1 + 1@2 files
+2026/06/21-21:45:41.173 93e Generated table #778@1: 4758 keys, 318052 bytes
+2026/06/21-21:45:41.174 93e Compacted 1@1 + 1@2 files => 318052 bytes
+2026/06/21-21:45:41.176 93e compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/21-21:45:41.176 93e Delete type=2 #775
+2026/06/21-21:45:41.176 93e Delete type=2 #777

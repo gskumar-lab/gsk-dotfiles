@@ -1,0 +1,18 @@
+2026/06/12-10:36:53.291 35c6 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/12-10:36:53.292 35c6 Recovering log #3
+2026/06/12-10:36:53.294 35c6 Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/000003.log 
+2026/06/12-10:39:21.323 35c8 Level-0 table #5: started
+2026/06/12-10:39:21.334 35c8 Level-0 table #5: 2072490 bytes OK
+2026/06/12-10:39:21.337 35c8 Delete type=0 #3
+2026/06/12-10:43:45.993 35c8 Level-0 table #7: started
+2026/06/12-10:43:45.997 35c8 Level-0 table #7: 234291 bytes OK
+2026/06/12-10:43:46.000 35c8 Delete type=0 #4
+2026/06/12-10:43:46.000 35c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/06/12-10:43:46.001 35c8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x08\x00p\x00a\x00g\x00e\x00I\x00n\x00f\x00o' @ 3582 : 1
+2026/06/12-10:43:46.001 35c8 Compacting 1@1 + 1@2 files
+2026/06/12-10:43:46.010 35c8 Generated table #8@1: 560 keys, 736992 bytes
+2026/06/12-10:43:46.010 35c8 Compacted 1@1 + 1@2 files => 736992 bytes
+2026/06/12-10:43:46.013 35c8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/12-10:43:46.013 35c8 Delete type=2 #5
+2026/06/12-10:43:46.013 35c8 Delete type=2 #7
+2026/06/12-10:43:46.013 35c8 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x08\x00p\x00a\x00g\x00e\x00I\x00n\x00f\x00o' @ 3582 : 1 .. (end); will stop at (end)

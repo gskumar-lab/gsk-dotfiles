@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "Abra múltiples URLs y enlaces a la vez. Abridor masivo de URLs con gestor de pestañas para organizar, guardar y gestionar pestañas."
+   }
+}

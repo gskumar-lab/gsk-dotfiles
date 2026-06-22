@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "複数のURLとリンクを一度にまとめて開くことができます。一括URLオープナーとタブマネージャー機能でブラウザのタブを整理、保存、管理。すべてのリンクを開いてタブを効率的に操作できるブラウザ拡張機能。リンク管理やタブの一括整理に最適なツールです。"
+   }
+}

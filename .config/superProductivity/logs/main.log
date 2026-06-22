@@ -1,0 +1,312 @@
+[2026-06-10 09:35:45.025] [info]                    Initializing plugin node executor
+[2026-06-10 09:35:45.028] [info]                    { enabled: null, showDevTools: false, mode: 'bottom' }
+[2026-06-10 09:35:45.111] [info]                    Saving backups to /home/gskumar/.config/superProductivity/backups
+[2026-06-10 09:35:45.112] [debug] (IdleTimeHandler) Environment detection: {
+  isWayland: true,
+  isGnomeWayland: false,
+  isSnap: false,
+  sessionType: 'wayland',
+  currentDesktop: 'mango',
+  waylandDisplay: 'wayland-0'
+}
+[2026-06-10 09:35:45.113] [debug] (IdleTimeHandler) Determining idle detection method...
+[2026-06-10 09:35:45.113] [debug] (IdleTimeHandler) Testing waylandIdleNotify...
+[2026-06-10 09:35:45.119] [info]                    🚀 Starting idle time tracking (interval: 30000ms, threshold: 60000ms)
+[2026-06-10 09:35:45.123] [info]  (IdleTimeHandler) Selected waylandIdleNotify for idle detection
+[2026-06-10 09:35:45.123] [info]  (IdleTimeHandler) Idle detection method ready: waylandIdleNotify
+[2026-06-10 09:35:45.612] [info]                    No custom styles detected at /home/gskumar/.config/superProductivity/styles.css
+[2026-06-10 09:35:46.332] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:35:46.334] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:35:51.489] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:35:54.439] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:36:03.822] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:36:06.742] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:36:15.121] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:36:39.273] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:36:45.126] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:36:54.067] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:37:05.990] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:37:15.135] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:37:22.902] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:37:23.632] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:37:28.830] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:37:29.315] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:37:45.135] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:38:15.141] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:38:45.150] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:39:15.164] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 09:39:26.720] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:39:28.068] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 09:39:32.371] [info]                    App before-quit: isQuiting= true
+[2026-06-10 09:39:32.372] [info]                    close event: isQuiting= true pendingBeforeCloseIds= [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2026-06-10 12:29:35.032] [info]                    Initializing plugin node executor
+[2026-06-10 12:29:35.044] [info]                    { enabled: null, showDevTools: false, mode: 'bottom' }
+[2026-06-10 12:29:35.152] [info]                    Saving backups to /home/gskumar/.config/superProductivity/backups
+[2026-06-10 12:29:35.154] [debug] (IdleTimeHandler) Environment detection: {
+  isWayland: true,
+  isGnomeWayland: false,
+  isSnap: false,
+  sessionType: 'wayland',
+  currentDesktop: 'mango',
+  waylandDisplay: 'wayland-0'
+}
+[2026-06-10 12:29:35.155] [debug] (IdleTimeHandler) Determining idle detection method...
+[2026-06-10 12:29:35.155] [debug] (IdleTimeHandler) Testing waylandIdleNotify...
+[2026-06-10 12:29:35.163] [info]                    🚀 Starting idle time tracking (interval: 30000ms, threshold: 60000ms)
+[2026-06-10 12:29:35.167] [info]  (IdleTimeHandler) Selected waylandIdleNotify for idle detection
+[2026-06-10 12:29:35.168] [info]  (IdleTimeHandler) Idle detection method ready: waylandIdleNotify
+[2026-06-10 12:29:35.170] [info]                    [clearStaleLevelDbLocks] Removed stale lock: /home/gskumar/.config/superProductivity/IndexedDB/file__0.indexeddb.leveldb/LOCK
+[2026-06-10 12:29:35.779] [info]                    No custom styles detected at /home/gskumar/.config/superProductivity/styles.css
+[2026-06-10 12:29:36.452] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 12:29:36.455] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-10 12:30:05.171] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:30:35.176] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:31:05.186] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:31:35.188] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:32:05.195] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:32:35.203] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:33:05.226] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:33:35.234] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:34:05.242] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-10 12:34:15.216] [info]                    close event: isQuiting= false pendingBeforeCloseIds= [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-10 12:34:15.217] [info]                    Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-10 12:34:15.220] [info]                    BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-10 12:34:16.208] [info]                    BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2026-06-10 12:34:16.209] [info]                    close event: isQuiting= false pendingBeforeCloseIds= []
+[2026-06-10 12:34:16.209] [info]                    close event: isQuiting= true pendingBeforeCloseIds= []
+[2026-06-10 12:34:16.212] [info]                    Quit after all windows being closed
+[2026-06-10 12:34:16.212] [info]                    App before-quit: isQuiting= true
+[2026-06-12 10:34:24.323] [info]                    Initializing plugin node executor
+[2026-06-12 10:34:24.336] [info]                    { enabled: null, showDevTools: false, mode: 'bottom' }
+[2026-06-12 10:34:24.461] [info]                    Saving backups to /home/gskumar/.config/superProductivity/backups
+[2026-06-12 10:34:24.463] [debug] (IdleTimeHandler) Environment detection: {
+  isWayland: true,
+  isGnomeWayland: false,
+  isSnap: false,
+  sessionType: 'wayland',
+  currentDesktop: 'mango',
+  waylandDisplay: 'wayland-0'
+}
+[2026-06-12 10:34:24.464] [debug] (IdleTimeHandler) Determining idle detection method...
+[2026-06-12 10:34:24.464] [debug] (IdleTimeHandler) Testing waylandIdleNotify...
+[2026-06-12 10:34:24.472] [info]                    🚀 Starting idle time tracking (interval: 30000ms, threshold: 60000ms)
+[2026-06-12 10:34:24.476] [info]  (IdleTimeHandler) Selected waylandIdleNotify for idle detection
+[2026-06-12 10:34:24.477] [info]  (IdleTimeHandler) Idle detection method ready: waylandIdleNotify
+[2026-06-12 10:34:24.480] [info]                    [clearStaleLevelDbLocks] Removed stale lock: /home/gskumar/.config/superProductivity/IndexedDB/file__0.indexeddb.leveldb/LOCK
+[2026-06-12 10:34:24.665] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-12 10:34:25.076] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-12 10:34:25.107] [info]                    No custom styles detected at /home/gskumar/.config/superProductivity/styles.css
+[2026-06-12 10:34:54.492] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-12 10:35:01.830] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-12 10:35:03.521] [info]                    close event: isQuiting= false pendingBeforeCloseIds= [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-12 10:35:03.522] [info]                    Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-12 10:35:03.523] [info]                    BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-12 10:35:06.224] [info]                    BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2026-06-12 10:35:06.224] [info]                    close event: isQuiting= false pendingBeforeCloseIds= []
+[2026-06-12 10:35:06.225] [info]                    close event: isQuiting= true pendingBeforeCloseIds= []
+[2026-06-12 10:35:06.228] [info]                    Quit after all windows being closed
+[2026-06-12 10:35:06.228] [info]                    App before-quit: isQuiting= true
+[2026-06-16 09:43:30.619] [info]                    Initializing plugin node executor
+[2026-06-16 09:43:30.637] [info]                    { enabled: null, showDevTools: false, mode: 'bottom' }
+[2026-06-16 09:43:30.917] [info]                    Saving backups to /home/gskumar/.config/superProductivity/backups
+[2026-06-16 09:43:30.923] [debug] (IdleTimeHandler) Environment detection: {
+  isWayland: true,
+  isGnomeWayland: false,
+  isSnap: false,
+  sessionType: 'wayland',
+  currentDesktop: 'mango',
+  waylandDisplay: 'wayland-0'
+}
+[2026-06-16 09:43:30.924] [debug] (IdleTimeHandler) Determining idle detection method...
+[2026-06-16 09:43:30.925] [debug] (IdleTimeHandler) Testing waylandIdleNotify...
+[2026-06-16 09:43:30.942] [info]                    🚀 Starting idle time tracking (interval: 30000ms, threshold: 60000ms)
+[2026-06-16 09:43:30.953] [info]  (IdleTimeHandler) Selected waylandIdleNotify for idle detection
+[2026-06-16 09:43:30.953] [info]  (IdleTimeHandler) Idle detection method ready: waylandIdleNotify
+[2026-06-16 09:43:30.960] [info]                    [clearStaleLevelDbLocks] Removed stale lock: /home/gskumar/.config/superProductivity/IndexedDB/file__0.indexeddb.leveldb/LOCK
+[2026-06-16 09:43:32.392] [info]                    No custom styles detected at /home/gskumar/.config/superProductivity/styles.css
+[2026-06-16 09:43:32.495] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 09:43:32.500] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 09:43:39.653] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 09:44:00.965] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:44:30.994] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:45:01.024] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:45:31.048] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:46:01.072] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:46:31.102] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:47:01.115] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:47:31.146] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:47:31.696] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 09:48:01.170] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:48:31.181] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:49:01.211] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:49:31.220] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:50:01.250] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:50:31.280] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:51:01.310] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:51:31.311] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:52:01.339] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:52:31.369] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:53:01.385] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 09:53:31.386] [debug]                   🕘 Idle check (idle=60345ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:54:01.416] [debug]                   🕘 Idle check (idle=90375ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:54:31.446] [debug]                   🕘 Idle check (idle=120405ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:55:01.477] [debug]                   🕘 Idle check (idle=150436ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:55:31.507] [debug]                   🕘 Idle check (idle=180466ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:56:01.538] [debug]                   🕘 Idle check (idle=210497ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 09:56:31.568] [debug]                   🕘 Idle check (idle=240527ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:57:01.598] [debug]                   🕘 Idle check (idle=270557ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:57:31.629] [debug]                   🕘 Idle check (idle=300588ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:57:33.132] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 09:58:01.632] [debug]                   🕘 Idle check (idle=330591ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:58:31.663] [debug]                   🕘 Idle check (idle=360622ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:59:01.682] [debug]                   🕘 Idle check (idle=390641ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 09:59:31.700] [debug]                   🕘 Idle check (idle=420658ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:00:01.731] [debug]                   🕘 Idle check (idle=450690ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:00:31.761] [debug]                   🕘 Idle check (idle=480720ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:01:01.764] [debug]                   🕘 Idle check (idle=510723ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:01:31.794] [debug]                   🕘 Idle check (idle=540753ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:02:01.822] [debug]                   🕘 Idle check (idle=570781ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:02:31.850] [debug]                   🕘 Idle check (idle=600809ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:03:01.881] [debug]                   🕘 Idle check (idle=630839ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:03:31.911] [debug]                   🕘 Idle check (idle=660870ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:04:01.942] [debug]                   🕘 Idle check (idle=690901ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:04:31.946] [debug]                   🕘 Idle check (idle=720905ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 10:05:01.977] [debug]                   🕘 Idle check (idle=750936ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:05:32.008] [debug]                   🕘 Idle check (idle=780966ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:06:02.038] [debug]                   🕘 Idle check (idle=810997ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:06:32.068] [debug]                   🕘 Idle check (idle=841027ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:07:02.100] [debug]                   🕘 Idle check (idle=871059ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:07:31.083] [info]                    powerMonitor: System suspend detected
+[2026-06-16 10:07:31.084] [info]                    powerMonitor: System suspend detected
+[2026-06-16 10:17:29.770] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:17:29.951] [info]                    powerMonitor: System resume detected. Idle time: 598865ms
+[2026-06-16 10:17:29.951] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 10:17:29.952] [info]                    powerMonitor: System resume detected. Idle time: 598867ms
+[2026-06-16 10:17:29.952] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 10:17:59.799] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:18:29.803] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:18:59.834] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:19:29.864] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:19:59.895] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:20:29.925] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:20:59.956] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:21:29.986] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:22:00.015] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:22:30.046] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:23:00.076] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:23:30.080] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:24:00.088] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:24:30.117] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:25:00.121] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:25:30.129] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:26:00.158] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:26:30.189] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:27:00.219] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:27:30.248] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:28:00.278] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:28:30.308] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:29:00.314] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:29:30.335] [debug]                   🕘 Idle check (idle=82305ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:30:00.367] [debug]                   🕘 Idle check (idle=112337ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 10:30:30.397] [debug]                   🕘 Idle check (idle=142367ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:31:00.401] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:31:30.430] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:32:00.460] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:32:30.483] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:33:00.485] [debug]                   🕘 Idle check (idle=62291ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:33:30.515] [debug]                   🕘 Idle check (idle=92320ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:34:00.544] [debug]                   🕘 Idle check (idle=122350ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:34:30.575] [debug]                   🕘 Idle check (idle=152381ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:35:00.606] [debug]                   🕘 Idle check (idle=182412ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:35:30.625] [debug]                   🕘 Idle check (idle=212431ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:36:00.627] [debug]                   🕘 Idle check (idle=242432ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:36:30.657] [debug]                   🕘 Idle check (idle=272463ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 10:37:00.680] [debug]                   🕘 Idle check (idle=302486ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:37:30.710] [debug]                   🕘 Idle check (idle=332516ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:38:00.722] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:38:30.753] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:39:00.783] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:39:30.787] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:40:00.817] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:40:30.847] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:41:00.860] [debug]                   🕘 Idle check (idle=71891ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:41:30.891] [debug]                   🕘 Idle check (idle=101921ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:42:00.921] [debug]                   🕘 Idle check (idle=131952ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 10:42:30.951] [debug]                   🕘 Idle check (idle=161982ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:43:00.980] [debug]                   🕘 Idle check (idle=192011ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:43:30.985] [debug]                   🕘 Idle check (idle=222016ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:44:01.013] [debug]                   🕘 Idle check (idle=252044ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:44:31.021] [debug]                   🕘 Idle check (idle=282052ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:45:01.052] [debug]                   🕘 Idle check (idle=312083ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:45:31.059] [debug]                   🕘 Idle check (idle=342090ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:46:01.089] [debug]                   🕘 Idle check (idle=372120ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:46:31.091] [debug]                   🕘 Idle check (idle=402121ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:47:01.121] [debug]                   🕘 Idle check (idle=432152ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:47:31.132] [debug]                   🕘 Idle check (idle=462163ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:48:01.161] [debug]                   🕘 Idle check (idle=492192ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:48:31.192] [debug]                   🕘 Idle check (idle=522222ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:49:01.193] [debug]                   🕘 Idle check (idle=552224ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:49:31.223] [debug]                   🕘 Idle check (idle=582254ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:50:01.254] [debug]                   🕘 Idle check (idle=612285ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:50:31.260] [debug]                   🕘 Idle check (idle=642291ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:51:01.290] [debug]                   🕘 Idle check (idle=672321ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:51:31.321] [debug]                   🕘 Idle check (idle=702352ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:52:01.351] [debug]                   🕘 Idle check (idle=732382ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:52:31.355] [debug]                   🕘 Idle check (idle=762386ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:53:01.386] [debug]                   🕘 Idle check (idle=792417ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 10:53:31.389] [debug]                   🕘 Idle check (idle=822420ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:54:01.399] [debug]                   🕘 Idle check (idle=852430ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:54:31.405] [debug]                   🕘 Idle check (idle=882436ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:55:01.435] [debug]                   🕘 Idle check (idle=912466ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:55:31.466] [debug]                   🕘 Idle check (idle=942497ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:56:01.476] [debug]                   🕘 Idle check (idle=972507ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:56:31.492] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:57:01.524] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 10:57:31.525] [debug]                   🕘 Idle check (idle=60491ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:58:01.555] [debug]                   🕘 Idle check (idle=90521ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:58:31.585] [debug]                   🕘 Idle check (idle=120550ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:59:01.615] [debug]                   🕘 Idle check (idle=150581ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 10:59:31.635] [debug]                   🕘 Idle check (idle=180601ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:00:01.649] [debug]                   🕘 Idle check (idle=210614ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:00:31.658] [debug]                   🕘 Idle check (idle=240624ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 11:01:01.666] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:01:31.668] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:02:01.698] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:02:31.729] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:03:01.737] [debug]                   🕘 Idle check (idle=76963ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:03:31.749] [debug]                   🕘 Idle check (idle=106975ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:04:01.767] [debug]                   🕘 Idle check (idle=136993ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:04:31.772] [debug]                   🕘 Idle check (idle=166998ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:05:01.802] [debug]                   🕘 Idle check (idle=197028ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:05:31.832] [debug]                   🕘 Idle check (idle=227057ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:06:01.863] [debug]                   🕘 Idle check (idle=257088ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:06:31.864] [debug]                   🕘 Idle check (idle=287090ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:07:01.894] [debug]                   🕘 Idle check (idle=317120ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=sent)
+[2026-06-16 11:07:31.909] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:08:01.917] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:08:31.925] [debug]                   🕘 Idle check (idle=76118ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=sent)
+[2026-06-16 11:09:01.935] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:09:31.965] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:10:01.995] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:10:32.024] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:11:02.048] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:11:32.079] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:12:02.109] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:12:32.113] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:13:02.142] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:13:32.173] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:14:02.180] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:14:32.207] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=1ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:15:02.213] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:15:32.216] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:16:02.247] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:16:32.278] [debug]                   🕘 Idle check (idle=0ms, method=waylandIdleNotify, duration=0ms, threshold=60000ms, action=skipped:below-threshold)
+[2026-06-16 11:16:35.978] [info]                    Task widget hide skipped: window=false, enabled=false
+[2026-06-16 11:16:44.773] [info]                    close event: isQuiting= false pendingBeforeCloseIds= [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-16 11:16:44.775] [info]                    Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-16 11:16:44.777] [info]                    BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2026-06-16 11:16:45.458] [info]                    BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2026-06-16 11:16:45.458] [info]                    close event: isQuiting= false pendingBeforeCloseIds= []
+[2026-06-16 11:16:45.459] [info]                    close event: isQuiting= true pendingBeforeCloseIds= []
+[2026-06-16 11:16:45.462] [info]                    Quit after all windows being closed
+[2026-06-16 11:16:45.462] [info]                    App before-quit: isQuiting= true

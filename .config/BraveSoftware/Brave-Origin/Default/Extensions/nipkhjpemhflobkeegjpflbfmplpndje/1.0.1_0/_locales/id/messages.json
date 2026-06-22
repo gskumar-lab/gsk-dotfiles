@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "Buka banyak URL dan tautan sekaligus. Pembuka URL massal dengan pengelola tab untuk mengatur, menyimpan, dan mengelola tab browser."
+   }
+}

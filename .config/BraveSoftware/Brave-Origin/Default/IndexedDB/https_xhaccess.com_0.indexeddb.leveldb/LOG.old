@@ -1,0 +1,6 @@
+2026/06/03-15:12:03.078 2c969 Creating DB /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_xhaccess.com_0.indexeddb.leveldb since it was missing.
+2026/06/03-15:12:03.088 2c969 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_xhaccess.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/03-15:12:36.882 2c969 Level-0 table #5: started
+2026/06/03-15:12:36.884 2c969 Level-0 table #5: 3553 bytes OK
+2026/06/03-15:12:36.888 2c969 Delete type=0 #3
+2026/06/03-15:12:36.889 2c969 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

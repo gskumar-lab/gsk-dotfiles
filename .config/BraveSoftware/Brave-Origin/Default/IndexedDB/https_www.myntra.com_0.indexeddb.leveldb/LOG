@@ -1,0 +1,12 @@
+2026/06/08-17:00:25.510 888 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.myntra.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/08-17:00:25.511 888 Recovering log #23
+2026/06/08-17:00:25.555 888 Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.myntra.com_0.indexeddb.leveldb/000023.log 
+2026/06/08-17:04:55.743 88a Level-0 table #28: started
+2026/06/08-17:04:55.762 88a Level-0 table #28: 720775 bytes OK
+2026/06/08-17:04:55.766 88a Delete type=0 #23
+2026/06/08-17:11:34.741 8b0 Compacting 1@1 + 1@2 files
+2026/06/08-17:11:34.749 8b0 Generated table #29@1: 136 keys, 54134 bytes
+2026/06/08-17:11:34.749 8b0 Compacted 1@1 + 1@2 files => 54134 bytes
+2026/06/08-17:11:34.759 8b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/08-17:11:34.759 8b0 Delete type=2 #25
+2026/06/08-17:11:34.759 8b0 Delete type=2 #28

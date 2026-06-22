@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "एक साथ कई URL और लिंक खोलें। टैब मैनेजर के साथ बल्क URL ओपनर ब्राउज़र टैब व्यवस्थित करें, सहेजें और प्रबंधित करें। सभी लिंक खोलें।"
+   }
+}

@@ -1,0 +1,19 @@
+[Default Applications]
+text/html=brave-origin.desktop
+x-scheme-handler/http=brave-origin.desktop
+x-scheme-handler/https=brave-origin.desktop
+x-scheme-handler/about=brave-origin.desktop
+x-scheme-handler/unknown=brave-origin.desktop
+image/png=feh.desktop
+image/jpeg=feh.desktop
+x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
+x-scheme-handler/magnet=freedownloadmanager_magnet_up.desktop
+application/x-bittorrent=freedownloadmanager_torrent.desktop
+text/markdown=geany.desktop
+text/plain=geany.desktop
+
+[Added Associations]
+image/png=feh.desktop;
+image/jpeg=feh.desktop;
+text/markdown=geany.desktop;
+text/plain=mpv.desktop;geany.desktop;

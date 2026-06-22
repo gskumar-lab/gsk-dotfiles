@@ -1,0 +1,16 @@
+
+# Make all connections via IPv4
+--force-ipv4   
+
+# Add chapter metadata
+--embed-chapters 
+
+# Embed subtitles in the video (only for mp4,webm and mkv videos)
+--embed-subs
+
+# Embed thumbnail in the video as cover art
+--embed-thumbnail
+
+# Download path
+--paths ~/Downloads/
+

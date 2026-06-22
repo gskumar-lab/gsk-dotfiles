@@ -1,0 +1,12 @@
+# tuxedo config
+theme = Terminal
+density = comfortable
+sort = due
+show_left = true
+show_right = true
+show_line_num = true
+show_status_bar = true
+show_done = false
+show_future = false
+share_token = d02b113888ff407c7660c1d450256274074d496fcdb4f536d0a19f3e4f8155bc
+share_port = 39953

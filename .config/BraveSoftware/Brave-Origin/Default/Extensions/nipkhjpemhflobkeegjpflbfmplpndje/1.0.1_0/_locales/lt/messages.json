@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "Atidarykite kelis URL ir nuorodas vienu metu. Skirtukų tvarkyklė, išsaugokite ir atidarykite visas nuorodas naršyklės skirtukuose."
+   }
+}

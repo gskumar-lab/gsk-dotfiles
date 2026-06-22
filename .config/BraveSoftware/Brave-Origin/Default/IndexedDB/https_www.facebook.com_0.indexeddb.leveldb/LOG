@@ -1,0 +1,6 @@
+2026/06/07-12:19:35.340 8c9 Creating DB /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb since it was missing.
+2026/06/07-12:19:35.344 8c9 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/07-12:19:54.758 8cb Level-0 table #5: started
+2026/06/07-12:19:54.763 8cb Level-0 table #5: 214624 bytes OK
+2026/06/07-12:19:54.766 8cb Delete type=0 #3
+2026/06/07-12:19:54.766 8cb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

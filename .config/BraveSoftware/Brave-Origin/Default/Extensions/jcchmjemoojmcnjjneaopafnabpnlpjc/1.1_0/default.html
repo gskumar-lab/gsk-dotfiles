@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="assets/style.css">
+  	
+  	<!-- Stylesheets -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  	<script src="assets/jquery.min.js"></script>
+  	<script src="assets/script.js"></script>
+	<title>ToolsOverflow ToolBar</title>
+</head>
+<body>
+	<div class="tof-tool-wrapper">
+		<div class="tof-navbar">
+			<div class="tof-branding" data-onclick="https://www.toolsoverflow.com">
+				<img src="assets/images/32x32.png" align="ToolsOverflow" width="32" height="32"/>
+				<span>ToolsOverflow</span>
+			</div>
+
+			<div class="tof-donate" data-onclick="https://www.toolsoverflow.com/donate">
+				<svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" width="18"><path d="m480-121-41-37q-106-97-175-167.5t-110-126Q113-507 96.5-552T80-643q0-90 60.5-150.5T290-854q57 0 105.5 27t84.5 78q42-54 89-79.5T670-854q89 0 149.5 60.5T880-643q0 46-16.5 91T806-451.5q-41 55.5-110 126T521-158l-41 37Z"/></svg>
+			</div>
+		</div>
+
+		<!-- Home Section -->
+		<div class="tof-content-wrapper home">
+			<!-- Offline Content -->
+			<div class="tof-offline-content hidden" id="offline-content">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100" height="100">
+					<circle transform="rotate(45 -181.019 437.02) scale(3.28877)" r="77.84"/>
+					<path d="m162.03 311.94-28.73 28.73 39.61 39.62 29.11-29.12c30.83 25.41 60.09 27.74 87.12 18.45L143.65 224.13c-9.12 26.74-6.66 55.93 18.38 87.81zm-31.46-150.11c-6.42-6.42-6.42-16.83 0-23.25 6.42-6.42 16.83-6.42 23.25 0l27.22 27.22c9.99-11.21 20.7-21.87 30.85-32.03l21.7 21.69 49.46-49.45c8.33-8.34 21.98-8.34 30.32 0 8.33 8.33 8.33 21.98 0 30.31l-49.47 49.47 63.1 63.09 49.46-49.46c8.34-8.34 21.98-8.34 30.32 0s8.33 21.98 0 30.31l-49.47 49.46 22.5 22.5c-10 10-20.74 20.7-32.14 30.74L375 359.76c6.42 6.41 6.42 16.83 0 23.25-6.42 6.41-16.84 6.41-23.25 0L130.57 161.83z"/>
+				</svg>
+
+				<div class="offline-message">Oops! You are offline...</div>
+			</div>
+
+			<!-- Home Search Content -->
+			<div class="tof-content">
+				<!-- Search Content -->
+				<div class="tof-search-input">
+					<input type="text" id="search-tool" placeholder="Search a tool here">
+					
+					<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M795.761-114.304 531.326-378.5q-29.761 25.264-69.6 39.415-39.84 14.15-85.161 14.15-109.835 0-185.95-76.195Q114.5-477.326 114.5-585t76.196-183.87q76.195-76.195 184.369-76.195t183.87 76.195q75.695 76.196 75.695 184.02 0 43.328-13.641 82.97-13.641 39.641-40.924 74.402L845.5-164.043l-49.739 49.739ZM375.65-393.065q79.73 0 135.29-56.245Q566.5-505.554 566.5-585t-55.595-135.69q-55.595-56.245-135.255-56.245-80.494 0-136.757 56.245Q182.63-664.446 182.63-585t56.228 135.69q56.227 56.245 136.792 56.245Z"/></svg>
+				</div>
+
+				<!-- Search Result -->
+				<div class="tof-search-result">
+					<!-- Searched Tools -->
+					<div class="tof-search-tool-container">
+					</div>
+
+					<!-- No Pinned Tools -->
+					<div class="tof-search-notool">
+						<svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m634-448 86 77v60H510v241l-30 30-30-30v-241H240v-60l80-77v-333h-50v-60h414v60h-50v333Z"/></svg>
+
+						<span>Search a tool to pin it here</span>
+					</div>
+				</div>
+			</div>
+	
+			<div class="tof-popular-category">
+				<div class="tof-popular-category-head"><span class="default-color categ-hash">#</span> Popular Category</div>
+
+				<div class="tof-popular-category-wrapper">
+					<div class="show-all-category">
+						<div class="show-all-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M676.195-445.935H154.022v-68.13h522.173L432.022-758.239 480-806.218 806.218-480 480-154.022l-47.978-47.739 244.173-244.174Z"/></svg>
+						</div>
+					</div>
+
+					<!-- Some Categories -->
+					<div class="tof-popular-category-card focus onloadCateg category-list loader" data-categ="">
+						<!-- Show Default Category -->
+					</div>
+					<div class="tof-popular-category-card"></div>
+				</div>
+			</div>
+
+			<div class="tof-footer">
+				<div class="tof-footer-copytight">© 2021 - <span data-onclick="https://www.toolsoverflow.com">ToolsOverflow</span></div>
+				<div class="tof-footer-interaction">
+					<li class="about" data-onclick="https://www.toolsoverflow.com/about">About</li>
+					<li class="contact" data-onclick="https://www.toolsoverflow.com/contact">Contact</li>
+					<li class="terms" data-onclick="https://www.toolsoverflow.com/terms-of-service">Terms</li>
+				</div>
+			</div>
+		</div>
+
+		<!-- Category -->
+		<div class="tof-content-wrapper category hidden">
+			<div class="tof-section-content">
+				<div class="tof-section-head">
+					<svg class="categ-back" xmlns="http://www.w3.org/2000/svg" height="21" viewBox="0 -960 960 960" width="21"><path d="m274-450 248 248-42 42-320-320 320-320 42 42-248 248h526v60H274Z"/></svg>
+
+					<span class="tof-section-head-name">Categories</span>
+				</div>
+
+				<div class="tof-section-data categ-section-data">
+					<!-- List of categories -->
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Tools -->
+		<div class="tof-content-wrapper tools hidden">
+			<div class="tof-section-content">
+				<div class="tof-section-head">
+					<svg class="tools-back" xmlns="http://www.w3.org/2000/svg" height="21" viewBox="0 -960 960 960" width="21"><path d="m274-450 248 248-42 42-320-320 320-320 42 42-248 248h526v60H274Z"/></svg>
+
+					<span class="tof-section-head-name tools-section-head-name">Category Tools</span>
+				</div>
+
+				<div class="tof-section-data tools-section-data">
+					<!-- Show Tools List -->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

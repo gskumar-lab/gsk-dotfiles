@@ -1,0 +1,6 @@
+2026/06/14-19:02:00.853 b13 Creating DB /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2026/06/14-19:02:00.857 b13 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/14-19:14:50.671 b25 Level-0 table #5: started
+2026/06/14-19:14:50.673 b25 Level-0 table #5: 3409 bytes OK
+2026/06/14-19:14:50.675 b25 Delete type=0 #3
+2026/06/14-19:14:50.676 b25 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

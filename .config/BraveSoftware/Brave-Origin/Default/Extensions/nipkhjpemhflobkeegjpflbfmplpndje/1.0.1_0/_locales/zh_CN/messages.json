@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "一次性打开多个URL和链接，标签页管理器帮助您保存并打开所有链接。轻松管理浏览器标签页，批量打开网址和URL链接，高效整理收藏的链接和书签。一键打开所有链接，标签页管理工具让浏览更便捷有序，节省时间提升浏览效率，是日常工作和学习的必备扩展工具。"
+   }
+}

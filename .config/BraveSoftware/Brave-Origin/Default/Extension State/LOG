@@ -1,0 +1,15 @@
+2026/06/22-09:05:51.501 9e0 Reusing MANIFEST /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/Extension State/MANIFEST-000001
+2026/06/22-09:05:51.503 9e0 Recovering log #29
+2026/06/22-09:05:51.515 9e0 Reusing old log /home/gskumar/.config/BraveSoftware/Brave-Origin/Default/Extension State/000029.log 
+2026/06/22-11:51:23.753 9b8 Level-0 table #33: started
+2026/06/22-11:51:23.773 9b8 Level-0 table #33: 590228 bytes OK
+2026/06/22-11:51:23.778 9b8 Delete type=0 #29
+2026/06/22-11:51:23.781 9b8 Compacting 4@0 + 1@1 files
+2026/06/22-11:51:23.795 9b8 Generated table #34@0: 2 keys, 1101 bytes
+2026/06/22-11:51:23.795 9b8 Compacted 4@0 + 1@1 files => 1101 bytes
+2026/06/22-11:51:23.798 9b8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/22-11:51:23.798 9b8 Delete type=2 #21
+2026/06/22-11:51:23.798 9b8 Delete type=2 #24
+2026/06/22-11:51:23.798 9b8 Delete type=2 #27
+2026/06/22-11:51:23.798 9b8 Delete type=2 #30
+2026/06/22-11:51:23.798 9b8 Delete type=2 #33

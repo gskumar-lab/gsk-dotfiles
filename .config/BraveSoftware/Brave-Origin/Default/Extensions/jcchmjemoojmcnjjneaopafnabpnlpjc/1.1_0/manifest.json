@@ -1,0 +1,20 @@
+{
+   "action": {
+      "default_icon": "assets/images/32x32.png",
+      "default_popup": "default.html"
+   },
+   "description": "Explore ToolsOverflow Tools Seamlessly Using Our Extension!",
+   "icons": {
+      "128": "assets/images/128x128.png",
+      "16": "assets/images/16x16.png",
+      "32": "assets/images/32x32.png",
+      "48": "assets/images/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoaHSkr7l+XL6cWhWmQ1RrPoWNoGvEVN9sCV4oCOwYAATzQrLq5t1tRlyVNYj631LJD9hIJ/PyjqTZl5jN0lt1qGqq8RGVNdbjh9eVD+LGexmCjV4/Qb4R3SBOL/DLBo9RhJfaBOwOrD7ygzqkDx1DeknJENLstst4y5PWcAcyykxINcEsjrNF8mxoTjhkkX0EXnzmeadxqkk5vwyDH0Oq1bnV9BjeYshMuJIAZqiUpbs/W/eKqRwRszm3WIZFGhFAbdt3/JJ9fEjMfrOMO8Vkw2uhMCbXi3MsdyAb4fx+DvIaqu4DjLQTBGcVADscy/jkOuMTlvnT8y7j5cSTUtTUQIDAQAB",
+   "manifest_version": 3,
+   "name": "ToolsOverflow",
+   "permissions": [ "storage" ],
+   "short_name": "ToolsOverflow",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Bulk URL Opener - Tab Manager",
+    "description": "Extension name for Chrome Web Store (max 45 chars)"
+  },
+  "shortDesc": {
+    "message": "Agorwch URLs a dolenni lluosog ar unwaith. Agorwr dolenni swmp gyda rheolwr tabiau i drefnu, cadw a rheoli tabiau porwr.",
+    "description": "Extension description for Chrome Web Store (max 132 chars)"
+  }
+}

@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "一次開啟多個URL和連結，分頁管理工具幫助您儲存並開啟所有連結。輕鬆管理瀏覽器分頁，批次開啟網址和URL連結，高效整理收藏的連結和書籤。一鍵開啟所有連結，分頁管理工具讓瀏覽更加便捷有序，節省時間提升瀏覽效率，是日常工作和學習的必備擴充工具。"
+   }
+}

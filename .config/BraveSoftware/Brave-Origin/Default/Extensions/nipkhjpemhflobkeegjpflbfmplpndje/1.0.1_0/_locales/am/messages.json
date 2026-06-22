@@ -1,0 +1,10 @@
+{
+   "appName": {
+      "description": "Extension name for Chrome Web Store (max 45 chars)",
+      "message": "Bulk URL Opener - Tab Manager"
+   },
+   "shortDesc": {
+      "description": "Extension description for Chrome Web Store (max 132 chars)",
+      "message": "ብዙ URLዎችን እና ሊንኮችን በአንድ ጊዜ ይክፈቱ። የታብ ማኔጀር በመጠቀም የአሳሽ ትሮችን ያደራጁ፣ ያስቀምጡ እና ያስተዳድሩ። ሁሉንም ሊንኮች በአንድ ጊዜ ለመክፈት ምርጥ የሆነ ቅጥያ ነው።"
+   }
+}
