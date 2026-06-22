@@ -1,0 +1,66 @@
+mangowm
+foot
+rofi
+rofi-emoji
+pcmanfm
+waybar
+bluetui
+wlctl-bin
+ly
+ly@tty2.service
+brave-origin-bin
+swayidle
+swaybg
+swaylock
+nwg-look
+papirus-icon-theme
+adapta-gtk-theme
+adw-gtk-theme
+brightnessctl
+mako mpv yazi
+7zip zoxide resvg xclip xsel wl-clipboard chafa yt-dlp
+xdg-user-dirs
+ xdg-user-dirs-update
+/ttf-jetbrains-mono-nerd
+geany
+catppuccin-gtk-theme-mocha
+telegram-desktop
+sudo systemctl disable NetworkManager-wait-online.service
+xdg-desktop-portal-wlr
+clipse
+galculator
+gnome-disk-utility
+udiskie
+auto-cpufreq
+bitwarden ente-auth-bin
+polkit-gnome
+gvfs ntfs-3g
+feh onlyoffice-bin
+gsimplecal
+kvantum
+sway-audio-idle-inhibit
+topgrade wev tor-browser-bin evince vm-curator wlr-randr gdu
+qemu-full
+systemctl-tui
+ttf-nerd-fonts-symbols
+ttf-tamil
+zen-browser-bin
+ex-vi-compat
+gum dialog
+freedownloadmanager
+mkvtoolnix-gui
+cyme
+zapzap
+gparted
+glow
+hypridle hyprlock
+easyeffects
+lsof
+zed
+qt5ct qt6ct
+tmux pass
+xarchiver
+trash-cli
+localsend
+cmake
+aria2
